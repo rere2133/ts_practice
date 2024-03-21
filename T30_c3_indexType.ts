@@ -1,20 +1,15 @@
-<template>
-  <div></div>
-</template>
-
-<script setup lang="ts">
 // 索引類型
 //=== Example 1 ===
-type Person = {
+type PersonA = {
   name: string;
   age: number;
   married: boolean;
 };
-type Age = Person["age"];
+type Age = PersonA["age"];
 // Age = number
-type MyType = Person["age" | "married"];
+type MyType = PersonA["age" | "married"];
 // MyType = number | boolean
-type MyType2 = Person[keyof Person];
+type MyType2 = PersonA[keyof PersonA];
 // MyType2 = string | number | boolean
 
 //=== Example 2 ===
@@ -41,6 +36,3 @@ type Person2 = (typeof list)[number];
 */
 type MyType3 = Person2[keyof Person2];
 // MyType3 = string | number | boolean
-</script>
-
-<style scoped></style>

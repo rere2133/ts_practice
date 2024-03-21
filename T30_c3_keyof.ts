@@ -1,8 +1,4 @@
-<template>
-  <div></div>
-</template>
 
-<script setup lang="ts">
 // 型別操作符 - keyof
 //=== Example 1 ===
 type Person = {
@@ -32,6 +28,3 @@ const object: MyObject = {
   0: "Hello",
 };
 console.log(object[keyOfMyObject]);
-</script>
-
-<style scoped></style>

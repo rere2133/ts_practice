@@ -1,8 +1,4 @@
-<template>
-  <div></div>
-</template>
 
-<script setup lang="ts">
 // 型別操作符 - typeof : 以typeof後面的值的型別作為前方值的型別宣告
 //=== Example 1 ===
 let myName = "Reckie";
@@ -39,6 +35,3 @@ const ray: typeof leo = {
   age: 20,
   married: false,
 };
-</script>
-
-<style scoped></style>
