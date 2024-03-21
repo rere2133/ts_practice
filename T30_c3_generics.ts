@@ -1,4 +1,3 @@
-
 // 泛型 Generics : 不預先指定具體型別，在使用時再指定，靈活、程式碼重用性高
 //=== Example 1 ： 物件泛型 ===
 type Option<T> = {
@@ -50,4 +49,3 @@ function myFn<T extends { length: number }>(param: T) {
   return param.length;
 }
 // T雖然是自訂型別，但其中必須包含length的屬性
-

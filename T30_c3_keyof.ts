@@ -1,5 +1,4 @@
-
-// 型別操作符 - keyof
+//  型別操作符 - keyof
 //=== Example 1 ===
 type Person = {
   name: string;
