@@ -1,1 +1,1 @@
-# ts_practice
+# TypeScript Study Note
